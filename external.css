@@ -1,0 +1,52 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px 10px 5px 10px;
+    background-color: mistyrose;
+    color:cadetblue;
+}
+
+@media screen and(min-width: 480px){
+   body{
+    background-color: lightcyan;
+   }
+}
+
+navbar{
+    font-weight: bold;
+    text-align: center;
+    width: 10em;
+    font-size: 30px;
+    border: 2px solid orange;
+    color: rgb(255, 200, 97);
+    background-color: rgb(76, 98, 224)
+
+}
+navbar ul{
+    display: none;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+navbar:hover ul{
+    display: block;
+}
+
+navbar ul li{
+    border-right: 2px solid orange;
+    padding: 5px 5px 5px 5px;
+    background-color: khaki;
+    font-size:16px;
+    width: 10em;
+    color:rgb(76, 98, 224);
+}
+
+navbar ul li:hover{
+    background-color: khaki;
+
+}
+
+a{    text-decoration:underline;}
+
